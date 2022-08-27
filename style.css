@@ -98,7 +98,6 @@ p {
 }
 .ten {
   grid-column: 1/4;
-  background: var(--violet-color);
 }
 
 /* cancel and edit */
@@ -139,7 +138,17 @@ p {
 
 .footer input {
   margin-top: 1rem;
+  background: var(--violet-color);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: var(--light-gray);
 }
 .footer .btn {
   margin-top: 1rem;
+  background: var(--light-gray);
+  padding: 10px 20px;
+  text-decoration: none;
+  color: var(--gray-color);
 }
