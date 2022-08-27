@@ -17,7 +17,7 @@
 }
 
 /* Todos */
-.todos-container {
+.grid-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,62 +25,56 @@
 }
 
 .item1 {
-  grid-area: "header";
+  grid-area: header;
 }
 .item2 {
-  grid-area: "content";
+  grid-area: content;
 }
 .item3 {
-  grid-area: "edit";
+  grid-area: edit;
 }
 .item4 {
-  grid-area: "cancel";
+  grid-area: cancel;
 }
 .item5 {
-  grid-area: "content";
+  grid-area: content;
 }
 .item6 {
-  grid-area: "edit";
+  grid-area: edit;
 }
 .item7 {
-  grid-area: "cancel";
+  grid-area: cancel;
 }
 .item8 {
-  grid-area: "content";
+  grid-area: content;
 }
 .item9 {
-  grid-area: "edit";
+  grid-area: edit;
 }
 .item10 {
-  grid-area: "cancel";
+  grid-area: cancel;
 }
 .item11 {
-  grid-area: "content";
+  grid-area: content;
 }
 .item12 {
-  grid-area: "edit";
+  grid-area: edit;
 }
 .item13 {
-  grid-area: "cancel";
+  grid-area: cancel;
 }
 
 .item14 {
-  grid-area: "content";
+  grid-area: content;
 }
 .item15 {
-  grid-area: "edit";
+  grid-area: edit;
 }
 .item16 {
-  grid-area: "cancel";
+  grid-area: cancel;
 }
 
-.todos-container .todos {
+.grid-container .grids {
   width: 40rem;
   height: auto;
-}
-
-.todos-container .todos {
-  display: grid;
-
-  grid-column-end: 16;
 }
