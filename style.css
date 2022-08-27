@@ -36,6 +36,19 @@ p {
   text-align: center;
   background: var(--gray-color);
 }
+
+/* Hover Effect */
+
+.edit:hover {
+  background: var(--light-red-color);
+  text-align: center;
+}
+
+.cancel:hover {
+  background: var(--orange-color);
+  text-align: center;
+}
+
 /* Table */
 .container {
   display: flex;
