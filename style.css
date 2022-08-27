@@ -29,12 +29,18 @@
   height: 30rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
 }
 
 .one {
+  text-align: center;
+  background: var(--violet-color);
+  color: var(--light-white-color);
   grid-column: 1/4;
   grid-row: 1;
+}
+.one h2 {
+  text-align: center;
+  margin-top: 3rem;
 }
 
 .two {
