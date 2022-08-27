@@ -28,3 +28,19 @@
   width: 40rem;
   height: auto;
 }
+
+.todos-container .todos {
+  display: grid;
+}
+
+.item1 {
+  background: var(--violet-color);
+  text-align: center;
+  color: var(--light-gray);
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+.item2 {
+  grid-column: 1 / span;
+  grid-row: 2;
+}
