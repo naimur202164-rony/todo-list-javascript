@@ -16,65 +16,47 @@
   box-sizing: border-box;
 }
 
-/* Todos */
-.grid-container {
+.container {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   height: 100vh;
 }
 
-.item1 {
-  grid-area: header;
-}
-.item2 {
-  grid-area: content;
-}
-.item3 {
-  grid-area: edit;
-}
-.item4 {
-  grid-area: cancel;
-}
-.item5 {
-  grid-area: content;
-}
-.item6 {
-  grid-area: edit;
-}
-.item7 {
-  grid-area: cancel;
-}
-.item8 {
-  grid-area: content;
-}
-.item9 {
-  grid-area: edit;
-}
-.item10 {
-  grid-area: cancel;
-}
-.item11 {
-  grid-area: content;
-}
-.item12 {
-  grid-area: edit;
-}
-.item13 {
-  grid-area: cancel;
-}
-
-.item14 {
-  grid-area: content;
-}
-.item15 {
-  grid-area: edit;
-}
-.item16 {
-  grid-area: cancel;
-}
-
-.grid-container .grids {
+/* Todos */
+.wrapper {
   width: 40rem;
-  height: auto;
+  height: 30rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.one {
+  grid-column: 1/4;
+  grid-row: 1;
+}
+
+.two {
+  grid-column: 1/3;
+}
+
+.three {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.four {
+  grid-column: 1/3;
+}
+
+.six {
+  grid-column: 1/3;
+}
+
+.eight {
+  grid-column: 1/3;
+}
+.ten {
+  grid-column: 1/4;
 }
