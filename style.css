@@ -21,6 +21,21 @@
 p {
   font-size: 26px;
 }
+
+.edit {
+  background: var(--gray-color);
+  text-align: center;
+}
+.edit h3 {
+  margin-top: 1.6rem;
+}
+.cancel h3 {
+  margin-top: 1.6rem;
+}
+.cancel {
+  text-align: center;
+  background: var(--gray-color);
+}
 /* Table */
 .container {
   display: flex;
@@ -70,19 +85,28 @@ p {
 
 /* cancel and edit */
 .three {
+  margin: 3px 0;
   display: grid;
+  column-gap: 3px;
+
   grid-template-columns: 1fr 1fr;
 }
 
 .five {
+  margin: 3px 0;
+  column-gap: 3px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .saven {
+  margin: 3px 0;
+  column-gap: 3px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .nine {
+  margin: 3px 0;
+  column-gap: 3px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
