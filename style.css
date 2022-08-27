@@ -63,6 +63,7 @@ p {
   height: 30rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  border-left: 3px solid var(--light-gray);
 }
 
 .one {
@@ -79,17 +80,21 @@ p {
 
 .two {
   grid-column: 1/3;
+  border-bottom: 1px solid var(--light-white-color);
 }
 .four {
   grid-column: 1/3;
+  border-bottom: 1px solid var(--light-white-color);
 }
 
 .six {
   grid-column: 1/3;
+  border-bottom: 1px solid var(--light-white-color);
 }
 
 .eight {
   grid-column: 1/3;
+  border-bottom: 1px solid var(--light-white-color);
 }
 .ten {
   grid-column: 1/4;
