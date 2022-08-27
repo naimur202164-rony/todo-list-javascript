@@ -130,3 +130,16 @@ p {
 }
 
 /* Footer Section */
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.footer input {
+  margin-top: 1rem;
+}
+.footer .btn {
+  margin-top: 1rem;
+}
